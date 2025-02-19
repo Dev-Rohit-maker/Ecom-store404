@@ -24,7 +24,7 @@ export default function RootLayout({
           <div className="container mx-auto px-4 py-4">
             <nav className="flex items-center justify-between">
               <Link href="/" className="text-2xl font-bold text-neon-blue">
-                ShopItNow
+                Amazon
               </Link>
               <div className="flex gap-6">
                 {["Electronics", "Groceries", "Home Appliances", "Fashion", "Books"].map((category) => (
