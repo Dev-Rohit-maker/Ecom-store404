@@ -37,9 +37,10 @@ const Navbar = () => {
           placeholder="What are you looking for..."
           value={searchQuery}
           onChange={handleSearchChange}
-          className="p-2 rounded-l border border-neon-blue flex-grow h-10" // Adjust height
+          className="p-2 rounded-l border border-gray-600 bg-gray-800 text-white flex-grow h-10 placeholder-gray-400"
         />
-        <button type="submit" className="bg-neon-blue text-black px-4 py-2 rounded-r hover:bg-neon-blue/80 h-10"> Search
+        <button type="submit" className="bg-neon-blue text-black px-3 py-2 rounded-r hover:bg-neon-blue/80 h-10">
+          Search
         </button>
       </form>
       <div className="flex gap-6 items-center">
