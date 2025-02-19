@@ -14,7 +14,7 @@ export default function Home() {
       <section className="relative h-[80vh] bg-gradient-to-r from-neon-blue/10 to-neon-blue/5">
         <div className="container mx-auto px-4 h-full flex items-center">
           <div className="max-w-2xl space-y-6">
-            <h1 className="text-5xl font-bold text-neon-blue">Welcome to ShopItNow</h1>
+            <h1 className="text-5xl font-bold text-neon-blue">Welcome to Amazon</h1>
             <p className="text-xl text-gray-300">Your one-stop destination for all your shopping needs</p>
             <Button size="lg" className="gap-2 bg-neon-blue text-black hover:bg-neon-blue/80">
               Explore Products <ChevronRight className="h-4 w-4" />
