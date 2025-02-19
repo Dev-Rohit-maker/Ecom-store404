@@ -27,7 +27,7 @@ export const products = [
     price: 29990,
     reviews: 5,
     quantity: 20,
-    image: "/images/sony wh-1000xm5.jpg",
+    image: "https://m.media-amazon.com/images/I/51aXvjzcukL._SX679_.jpg",
     description: "Industry-leading noise cancellation for immersive sound.",
   },
   {
@@ -37,7 +37,7 @@ export const products = [
     price: 114900,
     reviews: 5,
     quantity: 8,
-    image: "/images/macbook air m2.jpg",
+    image: "https://m.media-amazon.com/images/I/710TJuHTMhL._SL1500_.jpg",
     description: "Thin, light, and powerful laptop with the M2 chip.",
   },
   {
@@ -47,7 +47,7 @@ export const products = [
     price: 150000,
     reviews: 4,
     quantity: 5,
-    image: "/images/dell xps 15.jpg",
+    image: "https://m.media-amazon.com/images/I/41NXk4JZWPL._SX300_SY300_QL70_FMwebp_.jpg",
     description: "High-performance laptop with stunning display and powerful processor.",
   },
 
@@ -203,7 +203,7 @@ export const products = [
     price: 4500,
     reviews: 4,
     quantity: 30,
-    image: "/images/adidas hoodie.jpg",
+    image: "https://m.media-amazon.com/images/I/61RenuXSa4L._SX679_.jpg",
     description: "Comfortable and stylish Adidas hoodie.",
   },
 
