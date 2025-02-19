@@ -1,15 +1,13 @@
-import type React from "react"
-import type { Metadata } from "next"
 import { Inter } from "next/font/google"
-import Link from "next/link"
 import "./globals.css"
+import Navbar from "./Navbar"
 
 const inter = Inter({ subsets: ["latin"] })
 
-export const metadata: Metadata = {
+export const metadata = {
   title: "Amazon - Your Modern Shopping Destination",
   description: "Discover amazing products at Amazon",
-    generator: 'v0.dev'
+  generator: 'v0.dev'
 }
 
 export default function RootLayout({
@@ -19,25 +17,10 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={inter.className}>
+      <body>
         <header className="bg-black text-neon-blue border-b border-neon-blue">
           <div className="container mx-auto px-4 py-4">
-            <nav className="flex items-center justify-between">
-              <Link href="/" className="text-2xl font-bold text-neon-blue">
-                Amazon
-              </Link>
-              <div className="flex gap-6">
-                {["Electronics", "Groceries", "Home Appliances", "Fashion", "Books"].map((category) => (
-                  <Link
-                    key={category}
-                    href={`/category/${category.toLowerCase().replace(" ", "-")}`}
-                    className="text-neon-blue hover:text-neon-blue/80 transition-colors"
-                  >
-                    {category}
-                  </Link>
-                ))}
-              </div>
-            </nav>
+            <Navbar />
           </div>
         </header>
         <main className="bg-black text-white min-h-screen">{children}</main>
@@ -45,7 +28,5 @@ export default function RootLayout({
     </html>
   )
 }
-
-
 
 import './globals.css'

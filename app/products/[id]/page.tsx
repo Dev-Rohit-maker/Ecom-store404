@@ -62,8 +62,7 @@ export default function ProductPage({ params }: { params: { id: string } }) {
             <h2 className="text-xl font-semibold text-neon-blue mb-2">About this product</h2>
             <p className="text-gray-300">
               {/* Leave space for product description */}
-              Product description goes here. You can add detailed information about the product, its features,
-              specifications, and any other relevant details.
+              Product Details Coming Soon.........
             </p>
           </div>
         </div>

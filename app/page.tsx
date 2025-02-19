@@ -45,7 +45,7 @@ export default function Home() {
       {/* Categories */}
       <section className="py-16 bg-gray-900">
         <div className="container mx-auto px-4">
-          <h2 className="text-3xl font-bold mb-8 text-neon-blue">Shop by Category</h2>
+          <h2 className="text-3xl font-bold mb-8 text-neon-blue">Categories</h2>
           <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-4">
             {categories.map((category) => (
               <Link key={category} href={`/category/${category.toLowerCase().replace(" ", "-")}`}>
@@ -63,4 +63,5 @@ export default function Home() {
     </div>
   )
 }
+
 
